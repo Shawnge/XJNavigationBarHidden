@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     UINavigationController 的Category，简化导航栏的显示隐藏问题。
                    DESC
 
-  s.homepage     = "http://EXAMPLE/XJNavigationBarHidden"
+  s.homepage     = "https://github.com/Shawnge/XJNavigationBarHidden.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
