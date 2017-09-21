@@ -79,8 +79,8 @@ typedef void (^XJViewControllerVillAppearInjectBlock)(UIViewController *viewCont
         if (strongSelf) {
              [strongSelf setNavigationBarHidden:viewController.xj_navigationBarHidden animated:animated];
             if (viewController.xj_navigationBarHidden == YES && viewController.xj_interactivePopDisabled == NO) {
-                self.interactivePopGestureRecognizer.enabled = YES;
-                self.interactivePopGestureRecognizer.delegate = (id <UIGestureRecognizerDelegate>)self;
+                strongSelf.interactivePopGestureRecognizer.enabled = YES;
+                strongSelf.interactivePopGestureRecognizer.delegate = (id <UIGestureRecognizerDelegate>)strongSelf;
             }
         }
     };
