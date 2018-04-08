@@ -2,8 +2,8 @@
 //  UINavigationController+XJNavigationBarHidden.m
 //  XJNavigationHidden
 //
-//  Created by 肖健 on 2017/3/7.
-//  Copyright © 2017年 肖健. All rights reserved.
+//  Created by Shawnge on 2017/3/7.
+//  Copyright © 2017年 Shawnge. All rights reserved.
 //
 
 #import "UINavigationController+XJNavigationBarHidden.h"
@@ -16,7 +16,7 @@
 }
 
 - (void)setXj_navigationBarHidden:(BOOL)xj_navigationBarHidden {
-    objc_setAssociatedObject(self, @selector(xj_navigationBarHidden), @(xj_navigationBarHidden), OBJC_ASSOCIATION_ASSIGN);
+    objc_setAssociatedObject(self, @selector(xj_navigationBarHidden), @(xj_navigationBarHidden), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (BOOL)xj_interactivePopDisabled {
@@ -24,7 +24,7 @@
 }
 
 - (void)setXj_interactivePopDisabled:(BOOL)xj_interactivePopDisabled {
-    objc_setAssociatedObject(self, @selector(xj_interactivePopDisabled), @(xj_interactivePopDisabled), OBJC_ASSOCIATION_ASSIGN);
+    objc_setAssociatedObject(self, @selector(xj_interactivePopDisabled), @(xj_interactivePopDisabled), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 @end
@@ -40,9 +40,12 @@ typedef void (^XJViewControllerVillAppearInjectBlock)(UIViewController *viewCont
 @implementation UIViewController (XJNavigationBarHiddenPrivate)
 
 + (void)load {
-    Method originalMethod = class_getInstanceMethod(self, @selector(viewWillAppear:));
-    Method swizzledMethod = class_getInstanceMethod(self, @selector(xj_viewWillAppear:));
-    method_exchangeImplementations(originalMethod, swizzledMethod);
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        Method originalMethod = class_getInstanceMethod(self, @selector(viewWillAppear:));
+        Method swizzledMethod = class_getInstanceMethod(self, @selector(xj_viewWillAppear:));
+        method_exchangeImplementations(originalMethod, swizzledMethod);
+    });
 }
 
 - (void)xj_viewWillAppear:(BOOL)animated {
@@ -67,9 +70,12 @@ typedef void (^XJViewControllerVillAppearInjectBlock)(UIViewController *viewCont
 @implementation UINavigationController (XJNavigationBarHidden)
 
 + (void)load {
-    Method originalMethod = class_getInstanceMethod(self, @selector(pushViewController:animated:));
-    Method swizzledMethod = class_getInstanceMethod(self, @selector(xj_pushViewController:animated:));
-    method_exchangeImplementations(originalMethod, swizzledMethod);
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        Method originalMethod = class_getInstanceMethod(self, @selector(pushViewController:animated:));
+        Method swizzledMethod = class_getInstanceMethod(self, @selector(xj_pushViewController:animated:));
+        method_exchangeImplementations(originalMethod, swizzledMethod);
+    });
 }
 
 - (void)xj_pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
