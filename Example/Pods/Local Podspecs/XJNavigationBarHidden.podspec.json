@@ -1,0 +1,21 @@
+{
+  "name": "XJNavigationBarHidden",
+  "version": "0.0.4",
+  "summary": "UINavigationController 的Category，简化导航栏的显示隐藏问题。",
+  "description": "UINavigationController 的Category，简化导航栏的显示隐藏问题。",
+  "homepage": "https://github.com/Shawnge/XJNavigationBarHidden.git",
+  "license": "MIT",
+  "authors": {
+    "Shanwge": "https://github.com/Shawnge"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/Shawnge/XJNavigationBarHidden.git",
+    "tag": "0.0.4"
+  },
+  "source_files": "XJNavigationBarHidden/Classes/**/*.{h,m}",
+  "public_header_files": "XJNavigationBarHidden/Classes/**/*.h",
+  "requires_arc": true
+}

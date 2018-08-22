@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XJNavigationBarHidden_Example' do
+  pod 'XJNavigationBarHidden', :path => '../'
+
+  target 'XJNavigationBarHidden_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

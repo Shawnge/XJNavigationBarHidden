@@ -1,0 +1,6 @@
+framework module XJNavigationBarHidden {
+  umbrella header "XJNavigationBarHidden-umbrella.h"
+
+  export *
+  module * { export * }
+}
