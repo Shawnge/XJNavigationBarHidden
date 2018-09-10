@@ -15,9 +15,14 @@
 
 @implementation XJSecondViewController
 
+- (void)dealloc {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.xj_navigationBarHidden = YES;
+//    self.xj_interactivePopDisabled = YES;
     // Do any additional setup after loading the view.
 }
 

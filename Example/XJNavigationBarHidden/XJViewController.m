@@ -19,7 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.xj_navigationBarHidden = YES;
+//    self.xj_navigationBarHidden = YES;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

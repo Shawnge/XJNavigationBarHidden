@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XJNavigationBarHidden"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "UINavigationController 的Category，简化导航栏的显示隐藏问题。"
 
   # This description is used to generate tags and improve search results.

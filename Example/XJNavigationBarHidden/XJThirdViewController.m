@@ -13,6 +13,9 @@
 @end
 
 @implementation XJThirdViewController
+- (void)dealloc {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -257,6 +257,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "zhiling1991@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = M7R3YL3KZ5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -497,6 +500,7 @@
 			baseConfigurationReference = E3798BDFCC98A46D576DAA5B /* Pods-XJNavigationBarHidden_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M7R3YL3KZ5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XJNavigationBarHidden/XJNavigationBarHidden-Prefix.pch";
 				INFOPLIST_FILE = "XJNavigationBarHidden/XJNavigationBarHidden-Info.plist";
@@ -512,6 +516,7 @@
 			baseConfigurationReference = A757EC79835A3C5F4FFE875B /* Pods-XJNavigationBarHidden_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M7R3YL3KZ5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XJNavigationBarHidden/XJNavigationBarHidden-Prefix.pch";
 				INFOPLIST_FILE = "XJNavigationBarHidden/XJNavigationBarHidden-Info.plist";

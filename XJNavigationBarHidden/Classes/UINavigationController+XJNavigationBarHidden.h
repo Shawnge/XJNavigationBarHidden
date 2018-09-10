@@ -14,7 +14,7 @@
 
 @interface UIViewController (XJNavigationBarHidden)
 
-@property (nonatomic, assign) BOOL xj_interactivePopDisabled; //default NO, only use when xj_navigationBarHidden = YES
+@property (nonatomic, assign) BOOL xj_interactivePopDisabled; //default NO, only take effect when xj_navigationBarHidden = YES
 
 @property (nonatomic, assign) BOOL xj_navigationBarHidden; //default NO
 
