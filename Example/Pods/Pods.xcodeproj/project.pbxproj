@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27C05E917988FC24D650943BA9512711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		324D7BFE72319A945B05408BEC107631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7699FCEB0BDCC4BD35FE646CBB1C86F4 /* Pods-XJNavigationBarHidden_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3856FC4F0427A4B6DAE91BC503744137 /* Pods-XJNavigationBarHidden_Tests-dummy.m */; };
-		7883CC4AF673FE254EDA55AA9EAC6F89 /* UINavigationController+XJNavigationBarHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E98F0FFFB51171CBD6884D68B493B8 /* UINavigationController+XJNavigationBarHidden.m */; };
-		7AF182A64940F5FF27C1211DEE619E4F /* XJNavigationBarHidden-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB84D66376D49ABB1467F425765B2DB2 /* XJNavigationBarHidden-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86D4999C9AF164FEBFBBDBACA8FFE92F /* Pods-XJNavigationBarHidden_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF7C34C0AFEB75496CFCE26598A476B /* Pods-XJNavigationBarHidden_Example-dummy.m */; };
-		AA8905155E3E683111ED29815B452D6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		C2F2AFABABD2F13C04C69D511EDCA011 /* UINavigationController+XJNavigationBarHidden.h in Headers */ = {isa = PBXBuildFile; fileRef = 635A168C6C95C6B24DC954BF58C9E4D0 /* UINavigationController+XJNavigationBarHidden.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D21D1516D124003EA69D4B1F53861EBC /* Pods-XJNavigationBarHidden_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DD57FF9DFA4E1F207871499E8A493C /* Pods-XJNavigationBarHidden_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E461E26CD626624DBE02822F3D90DC53 /* XJNavigationBarHidden-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD6EE7810A260037710035B2F9F317E /* XJNavigationBarHidden-dummy.m */; };
-		EB746D712EA1EBC6650E15724AE1F1E6 /* Pods-XJNavigationBarHidden_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F55C0849681EAB9D9D19E15D65FBAAE /* Pods-XJNavigationBarHidden_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E136FE357E0EA551E1519E0BC82C334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		18EDEF7C04B53469434E7B961FEFC1EF /* XJNavigationBarHidden-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB84D66376D49ABB1467F425765B2DB2 /* XJNavigationBarHidden-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		273EC63C10E6DCE040545AA4691A6DDF /* UINavigationController+XJNavigationBarHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E98F0FFFB51171CBD6884D68B493B8 /* UINavigationController+XJNavigationBarHidden.m */; };
+		38E5031483B4694C311014957FBEBBD7 /* Pods-XJNavigationBarHidden_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3856FC4F0427A4B6DAE91BC503744137 /* Pods-XJNavigationBarHidden_Tests-dummy.m */; };
+		47BF8AB29FF2EB1B5351A8218569E34F /* UINavigationController+XJNavigationBarHidden.h in Headers */ = {isa = PBXBuildFile; fileRef = 635A168C6C95C6B24DC954BF58C9E4D0 /* UINavigationController+XJNavigationBarHidden.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		507DCBE24D49E521B051380F101DE4ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8ABEB722C0CCA47CA2584735AA25CF49 /* Pods-XJNavigationBarHidden_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F55C0849681EAB9D9D19E15D65FBAAE /* Pods-XJNavigationBarHidden_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D22BA10E388BE773C462B24E4F9E40D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D22FB556C45FF412CD36AF9F20B549B0 /* XJNavigationBarHidden-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD6EE7810A260037710035B2F9F317E /* XJNavigationBarHidden-dummy.m */; };
+		F61C38A1E8B4E0A748D10BE3AFBE5144 /* Pods-XJNavigationBarHidden_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DD57FF9DFA4E1F207871499E8A493C /* Pods-XJNavigationBarHidden_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC589862EE481A5440FA61A0252A5566 /* Pods-XJNavigationBarHidden_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF7C34C0AFEB75496CFCE26598A476B /* Pods-XJNavigationBarHidden_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D0C3308314A5C0B9F0672FEE420F5427 /* PBXContainerItemProxy */ = {
+		293F83FD977FD656ED23159DCEA90151 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 54EF688275AAACFB25CEDDB6D1DD9319;
-			remoteInfo = "Pods-XJNavigationBarHidden_Example";
-		};
-		F190B5ABF76F9228319408F9A50B734E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D6BEA0CDDC1228207FD5E959F161D7D8;
+			remoteGlobalIDString = 4DC5C30BA9927515CD5B02D968146E56;
 			remoteInfo = XJNavigationBarHidden;
+		};
+		B84DBA00C65FBDD3F5AF754A5BFA4953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BC4509411D1B858041A6D07C3D71FA1;
+			remoteInfo = "Pods-XJNavigationBarHidden_Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -77,27 +77,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1BB82D364CB134FF4AF7DB03816A87BB /* Frameworks */ = {
+		21DD65539D0E1546B6860AA3B3E6463B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				324D7BFE72319A945B05408BEC107631 /* Foundation.framework in Frameworks */,
+				507DCBE24D49E521B051380F101DE4ED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B9E2F77B76076954F65CD38F064DCE5 /* Frameworks */ = {
+		236847CFD2CA25CCD516C766145892E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA8905155E3E683111ED29815B452D6A /* Foundation.framework in Frameworks */,
+				D22BA10E388BE773C462B24E4F9E40D5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C018002220539ED5086E3C3BA55FBB5 /* Frameworks */ = {
+		96651E0E08D9AB451E4B1140F043CBC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C05E917988FC24D650943BA9512711 /* Foundation.framework in Frameworks */,
+				0E136FE357E0EA551E1519E0BC82C334 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,77 +233,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		632CC5591543C7C5BB8B334F7A02FCB9 /* Headers */ = {
+		447D731A9E1BD4A98C20ED66212F7CDA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB746D712EA1EBC6650E15724AE1F1E6 /* Pods-XJNavigationBarHidden_Tests-umbrella.h in Headers */,
+				8ABEB722C0CCA47CA2584735AA25CF49 /* Pods-XJNavigationBarHidden_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72B3BEFA6992E06C438E31D966DEF8CC /* Headers */ = {
+		7D94B2161F503AC5E32E58402297A688 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D21D1516D124003EA69D4B1F53861EBC /* Pods-XJNavigationBarHidden_Example-umbrella.h in Headers */,
+				F61C38A1E8B4E0A748D10BE3AFBE5144 /* Pods-XJNavigationBarHidden_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8065B90000131E613E430FF58EE29E30 /* Headers */ = {
+		CE6517DE4055022B459FEE663E79CC19 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F2AFABABD2F13C04C69D511EDCA011 /* UINavigationController+XJNavigationBarHidden.h in Headers */,
-				7AF182A64940F5FF27C1211DEE619E4F /* XJNavigationBarHidden-umbrella.h in Headers */,
+				47BF8AB29FF2EB1B5351A8218569E34F /* UINavigationController+XJNavigationBarHidden.h in Headers */,
+				18EDEF7C04B53469434E7B961FEFC1EF /* XJNavigationBarHidden-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		54EF688275AAACFB25CEDDB6D1DD9319 /* Pods-XJNavigationBarHidden_Example */ = {
+		4DC5C30BA9927515CD5B02D968146E56 /* XJNavigationBarHidden */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC24B5D35D224B8FD92B80BB9EE2B31E /* Build configuration list for PBXNativeTarget "Pods-XJNavigationBarHidden_Example" */;
+			buildConfigurationList = 12ED67649C5383CBD0320A95C7857147 /* Build configuration list for PBXNativeTarget "XJNavigationBarHidden" */;
 			buildPhases = (
-				1D0CF16A0AFF548F0E6A72A22CD084C6 /* Sources */,
-				5B9E2F77B76076954F65CD38F064DCE5 /* Frameworks */,
-				72B3BEFA6992E06C438E31D966DEF8CC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				912346B2AD8CF4B4557C1EC311D15F7B /* PBXTargetDependency */,
-			);
-			name = "Pods-XJNavigationBarHidden_Example";
-			productName = "Pods-XJNavigationBarHidden_Example";
-			productReference = C9141E04C1F49372853650E71E080E76 /* Pods_XJNavigationBarHidden_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D4AB1E49CFDAABE5B7DB0F106E6CF764 /* Pods-XJNavigationBarHidden_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 599ADFAB81F0DDF30D21C6DF561F95F2 /* Build configuration list for PBXNativeTarget "Pods-XJNavigationBarHidden_Tests" */;
-			buildPhases = (
-				BDFCA5307CFF3936CF4E147C43A8F1A0 /* Sources */,
-				6C018002220539ED5086E3C3BA55FBB5 /* Frameworks */,
-				632CC5591543C7C5BB8B334F7A02FCB9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB8F658FC3AC547416D76612D86220B0 /* PBXTargetDependency */,
-			);
-			name = "Pods-XJNavigationBarHidden_Tests";
-			productName = "Pods-XJNavigationBarHidden_Tests";
-			productReference = C69CD43CE5919926E9EEE7EB45F5AF8E /* Pods_XJNavigationBarHidden_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D6BEA0CDDC1228207FD5E959F161D7D8 /* XJNavigationBarHidden */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D9104798C8080D0561325714BB0676E9 /* Build configuration list for PBXNativeTarget "XJNavigationBarHidden" */;
-			buildPhases = (
-				F4E1889A05EF22FAB7609B048A8C1FE5 /* Sources */,
-				1BB82D364CB134FF4AF7DB03816A87BB /* Frameworks */,
-				8065B90000131E613E430FF58EE29E30 /* Headers */,
+				CE6517DE4055022B459FEE663E79CC19 /* Headers */,
+				A3094E0AD3662D6939FEA926BED9CE01 /* Sources */,
+				96651E0E08D9AB451E4B1140F043CBC1 /* Frameworks */,
+				83D35F0A2483AC309A3215137940812D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -312,6 +277,44 @@
 			name = XJNavigationBarHidden;
 			productName = XJNavigationBarHidden;
 			productReference = D8C6D6A3558CF8DDD99F770B8A09264E /* XJNavigationBarHidden.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BC4509411D1B858041A6D07C3D71FA1 /* Pods-XJNavigationBarHidden_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF069322078DDBA14F1F54ADBE44F97 /* Build configuration list for PBXNativeTarget "Pods-XJNavigationBarHidden_Example" */;
+			buildPhases = (
+				7D94B2161F503AC5E32E58402297A688 /* Headers */,
+				59EE71CB6F06CF85BE528EC17D55B1FA /* Sources */,
+				21DD65539D0E1546B6860AA3B3E6463B /* Frameworks */,
+				5DE224DFA2BEB3F9798416693D9906D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B77BCD129A5E23895F32553D34601146 /* PBXTargetDependency */,
+			);
+			name = "Pods-XJNavigationBarHidden_Example";
+			productName = "Pods-XJNavigationBarHidden_Example";
+			productReference = C9141E04C1F49372853650E71E080E76 /* Pods_XJNavigationBarHidden_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94CACD3A18DA982C253BAD08D8E1B5F5 /* Pods-XJNavigationBarHidden_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44852846EFD3CC9F9912BB680589C40D /* Build configuration list for PBXNativeTarget "Pods-XJNavigationBarHidden_Tests" */;
+			buildPhases = (
+				447D731A9E1BD4A98C20ED66212F7CDA /* Headers */,
+				17C3FE5D11A35760A6F4F72F40D9BC82 /* Sources */,
+				236847CFD2CA25CCD516C766145892E8 /* Frameworks */,
+				0735069B2F21715EFF8BDFB14C0E252B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0C4FEE789A730B1AE5B74AA6D42E4B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-XJNavigationBarHidden_Tests";
+			productName = "Pods-XJNavigationBarHidden_Tests";
+			productReference = C69CD43CE5919926E9EEE7EB45F5AF8E /* Pods_XJNavigationBarHidden_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -335,58 +338,238 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54EF688275AAACFB25CEDDB6D1DD9319 /* Pods-XJNavigationBarHidden_Example */,
-				D4AB1E49CFDAABE5B7DB0F106E6CF764 /* Pods-XJNavigationBarHidden_Tests */,
-				D6BEA0CDDC1228207FD5E959F161D7D8 /* XJNavigationBarHidden */,
+				7BC4509411D1B858041A6D07C3D71FA1 /* Pods-XJNavigationBarHidden_Example */,
+				94CACD3A18DA982C253BAD08D8E1B5F5 /* Pods-XJNavigationBarHidden_Tests */,
+				4DC5C30BA9927515CD5B02D968146E56 /* XJNavigationBarHidden */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		0735069B2F21715EFF8BDFB14C0E252B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE224DFA2BEB3F9798416693D9906D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D35F0A2483AC309A3215137940812D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		1D0CF16A0AFF548F0E6A72A22CD084C6 /* Sources */ = {
+		17C3FE5D11A35760A6F4F72F40D9BC82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86D4999C9AF164FEBFBBDBACA8FFE92F /* Pods-XJNavigationBarHidden_Example-dummy.m in Sources */,
+				38E5031483B4694C311014957FBEBBD7 /* Pods-XJNavigationBarHidden_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDFCA5307CFF3936CF4E147C43A8F1A0 /* Sources */ = {
+		59EE71CB6F06CF85BE528EC17D55B1FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699FCEB0BDCC4BD35FE646CBB1C86F4 /* Pods-XJNavigationBarHidden_Tests-dummy.m in Sources */,
+				FC589862EE481A5440FA61A0252A5566 /* Pods-XJNavigationBarHidden_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4E1889A05EF22FAB7609B048A8C1FE5 /* Sources */ = {
+		A3094E0AD3662D6939FEA926BED9CE01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7883CC4AF673FE254EDA55AA9EAC6F89 /* UINavigationController+XJNavigationBarHidden.m in Sources */,
-				E461E26CD626624DBE02822F3D90DC53 /* XJNavigationBarHidden-dummy.m in Sources */,
+				273EC63C10E6DCE040545AA4691A6DDF /* UINavigationController+XJNavigationBarHidden.m in Sources */,
+				D22FB556C45FF412CD36AF9F20B549B0 /* XJNavigationBarHidden-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		912346B2AD8CF4B4557C1EC311D15F7B /* PBXTargetDependency */ = {
+		B77BCD129A5E23895F32553D34601146 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XJNavigationBarHidden;
-			target = D6BEA0CDDC1228207FD5E959F161D7D8 /* XJNavigationBarHidden */;
-			targetProxy = F190B5ABF76F9228319408F9A50B734E /* PBXContainerItemProxy */;
+			target = 4DC5C30BA9927515CD5B02D968146E56 /* XJNavigationBarHidden */;
+			targetProxy = 293F83FD977FD656ED23159DCEA90151 /* PBXContainerItemProxy */;
 		};
-		AB8F658FC3AC547416D76612D86220B0 /* PBXTargetDependency */ = {
+		F0C4FEE789A730B1AE5B74AA6D42E4B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XJNavigationBarHidden_Example";
-			target = 54EF688275AAACFB25CEDDB6D1DD9319 /* Pods-XJNavigationBarHidden_Example */;
-			targetProxy = D0C3308314A5C0B9F0672FEE420F5427 /* PBXContainerItemProxy */;
+			target = 7BC4509411D1B858041A6D07C3D71FA1 /* Pods-XJNavigationBarHidden_Example */;
+			targetProxy = B84DBA00C65FBDD3F5AF754A5BFA4953 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3B1E4BB72664BDB1D9541D8D0BE80102 /* Release */ = {
+		08A20668DFE32DD21C44F38AB0FB6FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996868BCB2CBD7AEB6E3267EB5E35054 /* Pods-XJNavigationBarHidden_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XJNavigationBarHidden_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XJNavigationBarHidden_Tests/Pods-XJNavigationBarHidden_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D2298CFE6570C9CE6022BC70130A831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93FE7CAFB6D9EF0232C1A038BF881BCB /* Pods-XJNavigationBarHidden_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XJNavigationBarHidden_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XJNavigationBarHidden_Example/Pods-XJNavigationBarHidden_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6C3929FF0FC08AD698284ADE725BE8C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2DA71C07C5C4707C4C9FB42BAAE6BC3 /* XJNavigationBarHidden.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XJNavigationBarHidden/XJNavigationBarHidden-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XJNavigationBarHidden/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XJNavigationBarHidden/XJNavigationBarHidden.modulemap";
+				PRODUCT_MODULE_NAME = XJNavigationBarHidden;
+				PRODUCT_NAME = XJNavigationBarHidden;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D0D4BF45ECA49535A6067826C2DA536 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0E4E1AC930E929FD908D766B7F133640 /* Pods-XJNavigationBarHidden_Tests.release.xcconfig */;
 			buildSettings = {
@@ -420,7 +603,7 @@
 			};
 			name = Release;
 		};
-		52C5E8B45D6DC1B9F4E9A4D5A719C499 /* Release */ = {
+		BB2F1DB33BEB1A9BF03223E60300A98C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2DA71C07C5C4707C4C9FB42BAAE6BC3 /* XJNavigationBarHidden.xcconfig */;
 			buildSettings = {
@@ -451,7 +634,7 @@
 			};
 			name = Release;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -505,7 +688,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -514,132 +698,7 @@
 			};
 			name = Debug;
 		};
-		A67A466A1CE1127FDABF968F97D714E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93FE7CAFB6D9EF0232C1A038BF881BCB /* Pods-XJNavigationBarHidden_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XJNavigationBarHidden_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XJNavigationBarHidden_Example/Pods-XJNavigationBarHidden_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AC8C3E3D48B58DFD45286B91D47B85A3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 996868BCB2CBD7AEB6E3267EB5E35054 /* Pods-XJNavigationBarHidden_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XJNavigationBarHidden_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XJNavigationBarHidden_Tests/Pods-XJNavigationBarHidden_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		D2D31EACF321F32BFD90DCB2F51F434E /* Debug */ = {
+		DF5625A3ED9E496685A3BCEEBE5B0C0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8611FD2DC5965BC12493A797EF440FC /* Pods-XJNavigationBarHidden_Example.debug.xcconfig */;
 			buildSettings = {
@@ -672,71 +731,41 @@
 			};
 			name = Debug;
 		};
-		F7AA10FD7727C48C9BF58A6A9B58E3CE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2DA71C07C5C4707C4C9FB42BAAE6BC3 /* XJNavigationBarHidden.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XJNavigationBarHidden/XJNavigationBarHidden-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XJNavigationBarHidden/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XJNavigationBarHidden/XJNavigationBarHidden.modulemap";
-				PRODUCT_MODULE_NAME = XJNavigationBarHidden;
-				PRODUCT_NAME = XJNavigationBarHidden;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		12ED67649C5383CBD0320A95C7857147 /* Build configuration list for PBXNativeTarget "XJNavigationBarHidden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C3929FF0FC08AD698284ADE725BE8C7 /* Debug */,
+				BB2F1DB33BEB1A9BF03223E60300A98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		599ADFAB81F0DDF30D21C6DF561F95F2 /* Build configuration list for PBXNativeTarget "Pods-XJNavigationBarHidden_Tests" */ = {
+		44852846EFD3CC9F9912BB680589C40D /* Build configuration list for PBXNativeTarget "Pods-XJNavigationBarHidden_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC8C3E3D48B58DFD45286B91D47B85A3 /* Debug */,
-				3B1E4BB72664BDB1D9541D8D0BE80102 /* Release */,
+				08A20668DFE32DD21C44F38AB0FB6FDB /* Debug */,
+				8D0D4BF45ECA49535A6067826C2DA536 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC24B5D35D224B8FD92B80BB9EE2B31E /* Build configuration list for PBXNativeTarget "Pods-XJNavigationBarHidden_Example" */ = {
+		CCF069322078DDBA14F1F54ADBE44F97 /* Build configuration list for PBXNativeTarget "Pods-XJNavigationBarHidden_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2D31EACF321F32BFD90DCB2F51F434E /* Debug */,
-				A67A466A1CE1127FDABF968F97D714E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D9104798C8080D0561325714BB0676E9 /* Build configuration list for PBXNativeTarget "XJNavigationBarHidden" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F7AA10FD7727C48C9BF58A6A9B58E3CE /* Debug */,
-				52C5E8B45D6DC1B9F4E9A4D5A719C499 /* Release */,
+				DF5625A3ED9E496685A3BCEEBE5B0C0D /* Debug */,
+				4D2298CFE6570C9CE6022BC70130A831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

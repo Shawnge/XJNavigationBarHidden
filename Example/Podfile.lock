@@ -1,5 +1,5 @@
 PODS:
-  - XJNavigationBarHidden (0.0.4)
+  - XJNavigationBarHidden (0.0.5)
 
 DEPENDENCIES:
   - XJNavigationBarHidden (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XJNavigationBarHidden: c1f6ac2767487f1b96fc12fa27527006730b2b02
+  XJNavigationBarHidden: ce65a8421f8d3fcf4b0c39fcc13239bfc70524a6
 
 PODFILE CHECKSUM: d64cf2e24c2a0b9254356feabfdb7f7caff386b3
 
